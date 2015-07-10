@@ -1,0 +1,28 @@
+body { 
+    background: url(img/restaurant.png) repeat 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+
+h1 { 
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.stand-out { 
+    box-shadow: 0 0 1em 1em #ccc;
+}
+
+.jumbotron{
+background-image: url(img/blue-paper.png);
+background-size: cover;}
+
+table{
+	font-family: 'Tangerine', serif;
+	font-size: 24px;
+}
