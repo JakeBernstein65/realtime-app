@@ -13,8 +13,8 @@ vm.user.requests = [];
 vm.user.timeout = false; //for testing, turn this to true and disable if statement that changes timeout to false on reconnect
 //initialize pubnub
 var pubnub = PUBNUB.init({
-          publish_key: 'pub-c-89b27d6c-7bad-4ad3-b766-fcb999f2585e',
-          subscribe_key: 'sub-c-f6ccd478-1a84-11e5-a3cf-02ee2ddab7fe',
+          publish_key: 'pub-c-XYYXXYXYYXYXYXYX',
+          subscribe_key: 'sub-c-XYYXYXYXYXYXYX',
           //feel free to experiment with different heartbeats and heartbeat_intervals
           heartbeat: 20, //if a heartbeat is not received in this time period, the user will be considered timedout
           heartbeat_interval: 8 //a heartbeat is sent every 12 seconds or whatever the number is
